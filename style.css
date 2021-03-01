@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+
+body {
+  max-width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 244, 230);
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+  color: #fd6c8d;
+}
+
+img {
+  object-fit: cover;
+  object-position: center center;
+  width: 256px;
+  height: 256px;
+}
+
+main {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+p {
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(66, 66, 66);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
